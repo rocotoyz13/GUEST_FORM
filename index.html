@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="GUEST_FORM.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" 
+  integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" 
+  referrerpolicy="no-referrer"></script> -->
+
+  <div class="container">
+    <div class="title">GUEST PARKING FORM</div>
+    <div class="subtitle">Personal detail:</div>
+    <div class="content">
+      <form action="#">
+
+
+        <div class="user-details">
+
+          <div class="input-box">
+            <span class="details">First name</span>
+            <input type="text" class="firstname" name="firstname" id="firstname" placeholder="Enter your first name">
+            <div class="error-msg" id="error-msg"> </div> 
+     
+          </div>
+          <div class="input-box">
+            <span class="details">Middle name</span>
+            <input type="text"  class="middlename" name="middlename" id="middlename" placeholder="Enter your middle name" >
+            <div class="error-msg1" id="error-msg1"> </div>
+           
+          </div>
+          <div class="input-box">
+            <span class="details">Last name</span>
+            <input type="text" class="lastname" name="lastname" id="lastname" placeholder="Enter your last name" >
+            <div class="error-msg2" id="error-msg2"> </div>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone number</span>
+            <input type="text" class="phonenumber" name="phonenumber" id="phonenumber" placeholder="+63xxxxxxxx" >
+            <div class="error-msg3" id="error-msg3"> </div>
+          </div>
+          <div class="input-box">
+            <span class="details">Company name</span>
+            <input type="text" class="companyname" name="companyname" id="companyname" placeholder="Enter your company name" >
+            <div class="error-msg4" id="error-msg4"> </div>
+          </div>
+
+          <div class="input-box">
+            <span class="details">Purpose</span>
+            <input type="text" class="purpose" name="purpose" id="purpose" placeholder="Explain your purpose" >
+            <div class="error-msg44" id="error-msg44"> </div>
+          </div>
+         
+        </div>
+
+        <div class="subtitle">Vehicle detail:</div>
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Plate number:</span>
+            <input type="text" class="platenumber" name="platenumber" id="platenumber" placeholder="xxxx-xxxxx" >
+            <div class="error-msg5" id="error-msg5"> </div>
+          </div>
+          <div class="input-box">
+            <span class="details">Color: Base</span>
+            <!-- <input type="color" id="color" name="color" class="color" value="rrggbb" size="3%"> -->
+            <select name="color" id="color" class="color">
+              <option value="">Select</option>
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="gray">Gray</option>
+              <option value="black">Black</option>
+            </select>
+            <div class="error-msg6" id="error-msg6"> </div>
+       
+          </div>
+          <div class="input-box">
+            <span class="details">Type:</span>
+            <select name="type" id="type" class="type">
+              <option value="">Select</option>
+              <option value="sedan">Sedan</option>
+              <option value="van">Van</option>
+              <option value="suv">SUV</option>
+              <option value="hatchback">Hatchback</option>
+              <option value="crossover">Crossover</option>
+              <option value="convertible">Convertible</option>
+              <option value="Sportcar">Sport car</option>
+              <option value="coupe">Coupe</option>
+              <option value="minivan">Minivan</option>
+              <option value="mitsubishi">Mitsubishi</option>
+              <option value="pickupTruck">Pickup truck</option>
+              <option value="bus">Bus</option>
+              <option value="minibus">Minibus</option>
+              <option value="jeep">Jeep</option>
+              <option value="">motorcycle</option>
+              <option value="cruiser">Cruiser</option>
+              <option value="sportbike">Sport bike</option>
+              <option value="off-road">Off-road</option>
+              <option value="scooter">Scooter</option>
+              <option value="tricycle">Tricycle</option>
+
+            </select>
+            <div class="error-msg7" id="error-msg7"> </div>
+          </div>
+          <div class="input-box">
+            <span class="details">Manufacturer:</span>
+            <select name="brand" id="brand">
+              <option value="">Select</option>
+              <option value="ford">Ford</option>
+              <option value="toyota">Toyota</option>
+              <option value="mercedes">Mercedes</option>
+              <option value="audi">Audi</option>
+              <option value="honda">Honda</option>
+              <option value="kia">KIA</option>
+              <option value="nissan">Nissan</option>
+              <option value="yamaha">Yamaha</option>
+              <option value="suzuki">Suzuki</option>
+              <option value="mitsubishi">Mitsubishi</option>
+              <option value="isuzu">Isuzu</option>
+            </select>
+            <div class="error-msg8" id="error-msg8"> </div>
+          </div>
+        
+        </div>
+        <div class="button">
+          <input type="submit" id="submit" value="Submit">
+        </div>
+      </form>
+   
+    </div>
+  </div>
+  <script src="GUEST_FORM.js"></script>
+
+ 
+</body>
+</html>
